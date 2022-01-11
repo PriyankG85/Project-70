@@ -73,15 +73,6 @@ export default class RideScreen extends Component {
               placeholderTextColor={"rgba(255, 255, 255, 0.8)"}
               value={userId}
             />
-            <TouchableOpacity
-              style={styles.scanbutton}
-              // onPress={this.getCameraPermissions()}
-              onPress={() => this.getCameraPermissions()}
-              // onPress={() => this.getCameraPermissions}
-              // onPress=() => this.getCameraPermissions()
-            >
-              <Text style={styles.scanbuttonText}>Scan</Text>
-            </TouchableOpacity>
           </View>
           <View style={[styles.textinputContainer, { marginTop: 25 }]}>
             <TextInput
